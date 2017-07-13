@@ -1,0 +1,19 @@
+{
+  "name": "bridge-theme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gopucse@bitbucket.org/sippailab/bridge-theme.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/sippailab/bridge-theme#readme",
+  "dependencies": {
+    "gulp-install": "^1.1.0"
+  }
+}
