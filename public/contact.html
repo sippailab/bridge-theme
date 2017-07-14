@@ -1,66 +1,117 @@
 <html lang="en">
 <head>
-  <title>Bridge</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script></head>
-
+<title>Bridge</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="assets/style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 <body>
-
-  <div class="image not_responsive"><img src="http://bridge4.qodeinteractive.com/wp-content/uploads/2016/02/title-image.jpg" alt="&nbsp;" /> </div>
-
-								<h1><span>Contact</span></h1>
-
-					<h4 class="subtitle"  >New summer menus available from 12th Sept.</h4>
-
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-
-      </button>
-      <p class="navbar-brand" style="text-align:center"; >B</p>
-    </div>
-
-  </div>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+<div class="container-fluid">
+<div class="navbar-header">
+<ul id="nav" style="text-align:center;"><li><a href="http://bridge4.qodeinteractive.com/">
+<img src="http://bridge4.qodeinteractive.com/wp-content/uploads/2016/02/logo-footer.png" alt="logo" />
+</a></ul><li>
+</div>
+</div>
 </nav>
-
-  <div class="panel-group">
-    <div class="panel panel-default">
-      <div class="panel-heading"555 78 9064 Make reservations over the phone.</div>
-      <div class="panel-body"><table><tr><td><form action="#">
-        <div class="form-group">
-
-          <input type="text" class="form-control" id="name" placeholder="YOUR FULL NAME" name="pwd">
-        </div><div class="form-group">
-
-      <input type="email" class="form-control" id="email" placeholder="EMAIL ADDRESS" name="email">
-    </div>
-
-    <div class="form-group">
-
-      <input type="text" class="form-control" id="pwd" placeholder="WRITE MESSAGE HERE" name="pwd">
-    </div>
-
-    <button type="submit" class="btn btn-default">Submit</button>
-  </form></td><td></td></tr></table></div>
-    </div>
-    <div class="panel panel-default">
-      <div class="panel-heading">Panel Header</div>
-      <div class="panel-body">Panel Content</div>
-    </div>
-    <div class="panel panel-default">
-      <div class="panel-heading">NEWSLETTER
-
-The exciting tastes of international cuisine in a superb interior of our newly opened</div>
-  <div class="form-group">
-
-    <input type="email" class="form-control" id="email" placeholder="EMAIL ADDRESS" name="email">
-      <button type="submit" class="btn btn-default">Subscribe</button>
-  </div></div>
-    </div>
-
-  </div>
-
+<div class="container-fluid" id="first">
+<ul id="n" style="margin-top:300px">
+<li><a href="default.asp">Home</a></li>
+<li><a href="news.asp">About</a></li>
+<li><a href="contact.asp">The chefs</a></li>
+<li><a href="about.asp">blog</a></li>
+<li><a href="about.asp">contact</a></li>
+</ul>
+<h1 id="hone" style="margin-top:100px">CONTACT</h1>
+<h4 id="top" class="subtitle"  >New summer menus available from 12th Sept.</h4>
+</div>
+<div class="panel-group">
+<div class="panel panel-default">
+<div class="panel-heading"><h2 id="htwo">555 78 9064</h2>
+<h4 id="hfour">Make reservations over the phone.</h4></div>
+<div class="panel-body"><div class="row"><div class="col-sm-6"><form action="#">
+<div class="form-group">
+<input type="text" class="form-control" id="name" placeholder="YOUR FULL NAME" name="pwd">
+</div><div class="form-group">
+<input type="email" class="form-control" id="email" placeholder="EMAIL ADDRESS" name="email">
+</div>
+<div class="form-group">
+<textarea name="message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Write Message Here"></textarea>
+</div>
+<div class="form-group">
+<button type="submit" class="btn btn-default">Submit</button>  </div>
+</form></div><div class="col-sm-6"><div id="map" style="width:400px;height:400px;background:yellow"></div>
+<script>
+function myMap() {
+var mapCanvas = document.getElementById("map");
+var mapOptions = {
+center: new google.maps.LatLng(51.5, -0.2), zoom: 10
+};
+var map = new google.maps.Map(mapCanvas, mapOptions);
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script></div></div></div>
+</div>
+<div class="panel panel-default">
+<div class="panel-body"><div class="wpb_gallery wpb_content_element vc_clearfix">
+<div class="wpb_wrapper"><div class="wpb_gallery_slides wpb_image_grid" data-interval="3">
+<div class="gallery_holder">
+<ul class="gallery_inner gallery_without_space v4" id="menu"><span class="gallery_hover"><i class="fa fa-search"></i></span>
+<li ><a class="prettyphoto" href="http://bridge4.qodeinteractive.com/wp-content/uploads/2016/02/gallery1.jpg" >
+<img  src="http://bridge4.qodeinteractive.com/wp-content/uploads/2016/02/gallery1-480x480.jpg" width="400" height="400" alt="Beef steak" title="gallery1" /></a></li>
+<li ><a class="prettyphoto" href="http://bridge4.qodeinteractive.com/wp-content/uploads/2016/02/gallery2.jpg" "><span class="gallery_hover"><i class="fa fa-search"></i></span>
+<img class="" src="http://bridge4.qodeinteractive.com/wp-content/uploads/2016/02/gallery2-480x480.jpg" width="400" height="400" alt="Vegetable soup" title="gallery2" /></a></li>
+<li ><a class="prettyphoto" href="http://bridge4.qodeinteractive.com/wp-content/uploads/2016/02/gallery3.jpg" "><span class="gallery_hover"><i class="fa fa-search"></i></span>
+<img class="" src="http://bridge4.qodeinteractive.com/wp-content/uploads/2016/02/gallery3-480x480.jpg" width="400" height="400" alt="Master chef" title="gallery3" /></a></li>
+<li ><a class="prettyphoto" href="http://bridge4.qodeinteractive.com/wp-content/uploads/2016/02/gallery4.jpg" "><span class="gallery_hover"><i class="fa fa-search"></i></span>
+<img class="" src="http://bridge4.qodeinteractive.com/wp-content/uploads/2016/02/gallery4-480x480.jpg" width="400" height="400" alt="Salmon appetizer" title="gallery4" /></a></li>
+</ul></div></div></div></div></div></div>
+<div class="container-fluid">
+<div class="container-inner">
+<div class="row">
+<div class="col-sm-4" >
+</div>
+<div class="col-sm-4" >
+<h5 style:"color:#ffffff;">NEWSLETTER</h5>
+<h4 id="h">The exciting tastes of international cuisine in a superb interior of our newly opened</h4>
+<div class="separator  transparent   " style="margin-top: 45px;margin-bottom: 0px;"></div>
+<div class="form-group">
+<input type="email" class="form-control" id="email" placeholder="EMAIL ADDRESS" name="email">
+<button type="submit" class="btn btn-default"n id="button1">Subscribe</button>
+</div>
+<div class="textwidget"><div class="separator  small center  " style="background-color: #ffffff;"></div>
+<div class="separator  transparent   " style="margin-top: 82px;margin-bottom: 0px;"></div>
+<div <div class="textwidget"><h3 style="color: #000000;">FOLLOW US</h3></div>
+<div class="separator  transparent   " style="margin-top: 35px;margin-bottom: 0px;"></div>
+<div class="icon-bar">
+  <a class="active" href="#"><i class="fa fa-home"></i></a>
+  <a href="#"><i class="fa fa-search"></i></a>
+  <a href="#"><i class="fa fa-envelope"></i></a>
+  <a href="#"><i class="fa fa-globe"></i></a>
+  <a href="#"><i class="fa fa-trash"></i></a>
+</div>
+</div>
+<div class="col-sm-4" >
+</div>
+</div></div></div>
+<div class="container-fluid">
+<div class="container-inner">
+<div class="row">
+<div class="col-sm-4" >
+Sometimes the simplest things are the hardest to find. </div>
+<div class="col-sm-4" >
+<a href="http://bridge4.qodeinteractive.com/"><img src="http://bridge4.qodeinteractive.com/wp-content/uploads/2016/02/logo-footer.png" alt="logo" />
+</a></div>
+<div class="col-sm-4" >
+<p style:"color:#ffffff;">Sometimes the simplest things are the hardest to find.</p>
+</div>
+</div>
+</div>
+</div>
 </body>
 </html>

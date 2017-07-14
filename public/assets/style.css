@@ -1,0 +1,88 @@
+.panel panel-default {
+    background-image: url("http://bridge4.qodeinteractive.com/wp-content/uploads/2016/02/title-image.jpg");
+}
+h1,p,h4,h5,h3,h2{
+  text-align: center;
+}
+ul#menu li {
+    display:inline;
+}
+h5
+{
+  font-family: "Raleway", sans-serif;
+    font-size: 32px;
+    letter-spacing: 1px;
+}
+#h{
+  font-family: 'Playfair Display', sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+    font-style: italic;
+}.container-fluid{
+  background-color: #222222;
+  text-align: center;
+}
+b{
+  margin-left: 100px;
+}
+  #nav {
+width:750px;
+margin:0 auto;
+list-style:none;
+}
+#nav li {
+float:left;
+}
+#nav a {
+display:block;
+text-align:center;
+width:1700px; /* fixed width */
+text-decoration:none;
+}
+.panel-group{margin-top: 100px;}
+#htwo{color: #303030;
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    line-height: 40px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-transform: uppercase;}
+    #hfour{
+      color: #303030;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: 0px;
+    text-transform: none;
+    }
+.container-fluid#first{
+     background-image: url("images/title-image.jpg");
+     height:100%;
+}
+#hone{
+  font-size: 80px;
+    line-height: 80px;
+    font-weight: 600;
+    letter-spacing: 20px;
+    color:#ffffff;
+}
+#top{color: #ffffff;
+    font-size: 35px;
+    font-family: "Playfair Display";
+    line-height: 40px;
+    font-weight: 400;
+    font-style: italic;}
+    li {
+    display: inline;
+     width: 400px;
+}
+ul#n li{
+  font-size: 18px;
+      line-height: 80px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      color: rgb(242, 242, 242);
+}
