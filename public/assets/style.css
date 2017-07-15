@@ -1,18 +1,11 @@
 .panel panel-default {
     background-image: url("http://bridge4.qodeinteractive.com/wp-content/uploads/2016/02/title-image.jpg");
 }
-h1,p,h4,h5,h3,h2{
-  text-align: center;
-}
+
 ul#menu li {
     display:inline;
 }
-h5
-{
-  font-family: "Raleway", sans-serif;
-    font-size: 32px;
-    letter-spacing: 1px;
-}
+
 #h{
   font-family: 'Playfair Display', sans-serif;
     font-size: 20px;
@@ -36,7 +29,7 @@ float:left;
 #nav a {
 display:block;
 text-align:center;
-width:1700px; /* fixed width */
+width:1700px;
 text-decoration:none;
 }
 .panel-group{margin-top: 100px;}
@@ -47,7 +40,8 @@ text-decoration:none;
     font-style: normal;
     font-weight: 600;
     letter-spacing: 3px;
-    text-transform: uppercase;}
+    text-transform: uppercase;
+  text-align: center;}
     #hfour{
       color: #303030;
     font-family: 'Playfair Display', sans-serif;
@@ -57,6 +51,7 @@ text-decoration:none;
     font-weight: 400;
     letter-spacing: 0px;
     text-transform: none;
+    text-align: center;
     }
 .container-fluid#first{
      background-image: url("images/title-image.jpg");
@@ -68,6 +63,7 @@ text-decoration:none;
     font-weight: 600;
     letter-spacing: 20px;
     color:#ffffff;
+    text-align: center;
 }
 #top{color: #ffffff;
     font-size: 35px;
@@ -81,8 +77,84 @@ text-decoration:none;
 }
 ul#n li{
   font-size: 18px;
-      line-height: 80px;
       font-weight: 700;
       letter-spacing: 1px;
-      color: rgb(242, 242, 242);
+      color: #ffffff;
+  float: horizontal;
+      display: inline;
+    }
+ul#n li a {
+ padding: 20px 20px;
+ color: white;
+ text-align: center;
+
 }
+.container-fluid#footer{
+    background-color: #000000;
+}
+.icon-bar {
+    width: 100%;
+    style="background: #303030;
+    overflow: auto;
+}
+
+.icon-bar a {
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+}
+
+.icon-bar a:hover {
+    background-color: #555;
+}
+.button {
+
+            background-color: Transparent;
+            background-repeat:no-repeat;
+            border: none;
+            cursor:pointer;
+            overflow: hidden;
+
+        }
+        #gallery.container-fluid ul li{
+            position: relative;
+            width: 50%;
+        }
+
+          #gallery.image {
+          opacity: 1;
+          display: block;
+          width: 100%;
+          height: auto;
+          transition: .5s ease;
+          backface-visibility: hidden;
+        }
+
+          #gallery.text {
+          transition: .5s ease;
+          opacity: 0;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%)
+        }
+
+          #gallery.container-fluid ul li:hover .image {
+          opacity: 0.3;
+        }
+
+          #gallery.container-fluid ul li:hover .middle {
+          opacity: 1;
+        }
+
+          #gallery.text {
+          background-color: #4CAF50;
+          color: white;
+          font-size: 16px;
+          padding: 16px 32px;
+        }
