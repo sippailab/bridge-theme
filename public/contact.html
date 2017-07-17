@@ -1,85 +1,101 @@
 <html lang="en">
+
 <head>
-<title>Bridge</title>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="assets/style.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
-<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Bridge</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
-<nav class="navbar navbar-inverse navbar-fixed-top">
-<div class="container-fluid">
-<div class="navbar-header">
-<ul id="nav" style="text-align:center;"><li><a href="http://bridge4.qodeinteractive.com/">
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <ul id="nav" style="text-align:center;">
+          <li><a href="http://bridge4.qodeinteractive.com/">
 <img src="http://bridge4.qodeinteractive.com/wp-content/uploads/2016/02/logo-footer.png" alt="logo" />
-</a></ul><li>
-</div>
-</div>
-</nav>
-<div class="container-fluid" id="first">
-<div class="row"style="margin-top:100px">
-<div class="col-sm-4">
-<span  class="qode_icon_font_elegant icon_phone qode_icon_element" style="font-size: 13px;"></span>
-<span style="font-size: 10px;color:#ffffff;" >RESERVATIONS: 011 678 67856</span>
-<span class="qode_icon_shortcode  q_font_awsome_icon fa-lg  " style="margin:0 5px 0 18px;"></span>
-<span style="font-size: 10px;color:#ffffff;" >MON - SAT 8.00 - SUNDAY CLOSED</span>
-</div>
-<div class="col-sm-4"></div>
-<div class="col-sm-2"></div>
-<div class="col-sm-2">
- <h6 style="color:#ffffff;text-align:left;">connect with us</h6>
- <div class="icon-bar">
-<a href="http://www.facebook.com"><i class="fa fa-facebook-official"></i></a>
-<a href="http://twitter.com"><i class="fa fa-twitter-square"></i></a>
-<a href="https://www.pinterest.com"><i class="fa fa-pinterest-p"></i></a>
-<a href="https://www.plus.google.com"><i class="fa fa-google-plus" ></i></a>
-<a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
-</div>
-</div>
-</div>
-<ul id="n" style="margin-top:200px">
-<li><a href="default.asp">Home</a></li>
-<li ><a href="news.asp">About</a></li>
-<li><a href="contact.asp">The chefs</a></li>
-<li><a href="about.asp">blog</a></li>
-<li><a href="about.asp">contact</a></li>
-</ul>
-<h1 id="hone" style="margin-top:100px">CONTACT</h1>
-<h4 id="top" class="subtitle"  >New summer menus available from 12th Sept.</h4>
-</div>
-<div class="panel-group">
-<div class="panel panel-default">
-<div class="panel-heading"><h2 id="htwo">555 78 9064</h2>
-<h4 id="hfour">Make reservations over the phone.</h4></div>
-<div class="panel-body"><div class="row"><div class="col-sm-6"><form action="#" style="margin-left:100px">
-<div class="form-group" >
-<input type="text" class="form-control" id="name" placeholder="YOUR FULL NAME" name="pwd">
-</div><div class="form-group">
-<input type="email" class="form-control" id="email" placeholder="EMAIL ADDRESS" name="email">
-</div>
-<div class="form-group">
-<textarea name="message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Write Message Here"></textarea>
-</div>
-<div class="form-group">
-<button type="submit" class="btn btn-default">Submit</button>  </div>
-</form></div><div class="col-sm-6"><div id="map" style="width:400px;height:400px;background:yellow"></div>
-<script>
-function myMap() {
-var mapCanvas = document.getElementById("map");
-var mapOptions = {
-center: new google.maps.LatLng(51.5, -0.2), zoom: 10
-};
-var map = new google.maps.Map(mapCanvas, mapOptions);
-}
-</script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script></div></div></div>
-</div>
-<div class="container-fluid" id="gallery">
-<ul>
-<li><a href="http://bridge4.qodeinteractive.com/wp-content/uploads/2016/02/gallery1-480x480.jpg" alt="Avatar" class="image" style="width:400; height:400;"><img src="http://bridge4.qodeinteractive.com/wp-content/uploads/2016/02/gallery1-480x480.jpg" alt="Avatar" class="image" style="width:400; height:400;"></li>
+</a></ul>
+        <li>
+      </div>
+    </div>
+  </nav>
+  <div class="container-fluid" id="first">
+    <div class="row" style="margin-top:100px">
+      <div class="col-sm-4">
+        <span class="qode_icon_font_elegant icon_phone qode_icon_element" style="font-size: 13px;"></span>
+        <span style="font-size: 10px;color:#ffffff;">RESERVATIONS: 011 678 67856</span>
+        <span class="qode_icon_shortcode  q_font_awsome_icon fa-lg  " style="margin:0 5px 0 18px;"></span>
+        <span style="font-size: 10px;color:#ffffff;">MON - SAT 8.00 - SUNDAY CLOSED</span>
+      </div>
+      <div class="col-sm-4"></div>
+      <div class="col-sm-2"></div>
+      <div class="col-sm-2">
+        <h6 style="color:#ffffff;text-align:left;">connect with us</h6>
+        <div class="icon-bar">
+          <a href="http://www.facebook.com"><i class="fa fa-facebook-official"></i></a>
+          <a href="http://twitter.com"><i class="fa fa-twitter-square"></i></a>
+          <a href="https://www.pinterest.com"><i class="fa fa-pinterest-p"></i></a>
+          <a href="https://www.plus.google.com"><i class="fa fa-google-plus" ></i></a>
+          <a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+    <ul id="n" style="margin-top:200px">
+      <li><a href="default.asp">Home</a></li>
+      <li><a href="news.asp">About</a></li>
+      <li><a href="contact.asp">The chefs</a></li>
+      <li><a href="about.asp">blog</a></li>
+      <li><a href="about.asp">contact</a></li>
+    </ul>
+    <h1 id="hone" style="margin-top:100px">CONTACT</h1>
+    <h4 id="top" class="subtitle">New summer menus available from 12th Sept.</h4>
+  </div>
+  <div class="panel-group">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h2 id="htwo">555 78 9064</h2>
+        <h4 id="hfour">Make reservations over the phone.</h4></div>
+      <div class="panel-body">
+        <div class="row">
+          <div class="col-sm-6">
+            <form action="#" style="margin-left:100px">
+              <div class="form-group">
+                <input type="text" class="form-control" id="name" placeholder="YOUR FULL NAME" name="pwd">
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" id="email" placeholder="EMAIL ADDRESS" name="email">
+              </div>
+              <div class="form-group">
+                <textarea name="message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Write Message Here"></textarea>
+              </div>
+              <div class="form-group">
+                <button type="submit" class="btn btn-default">Submit</button> </div>
+            </form>
+          </div>
+          <div class="col-sm-6">
+            <div id="map" style="width:400px;height:400px;background:yellow"></div>
+            <script>
+              function myMap() {
+                var mapCanvas = document.getElementById("map");
+                var mapOptions = {
+                  center: new google.maps.LatLng(51.5, -0.2),
+                  zoom: 10
+                };
+                var map = new google.maps.Map(mapCanvas, mapOptions);
+              }
+            </script>
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid" id="gallery">
+      <ul>
+        <li><a href="http://bridge4.qodeinteractive.com/wp-content/uploads/2016/02/gallery1-480x480.jpg" alt="Avatar" class="image" style="width:400; height:400;"><img src="http://bridge4.qodeinteractive.com/wp-content/uploads/2016/02/gallery1-480x480.jpg" alt="Avatar" class="image" style="width:400; height:400;"></li>
 <li><a href="http://bridge4.qodeinteractive.com/wp-content/uploads/2016/02/gallery2.jpg" alt="Avatar" class="image" style="width:400; height:400;"><img src="http://bridge4.qodeinteractive.com/wp-content/uploads/2016/02/gallery2.jpg" alt="Avatar" class="image" style="width:400; height:400;"></li>
 <li><a href="http://bridge4.qodeinteractive.com/wp-content/uploads/2016/02/gallery3-480x480.jpg" alt="Avatar" class="image" style="width:400; height:400;"><img src="http://bridge4.qodeinteractive.com/wp-content/uploads/2016/02/gallery3-480x480.jpg" alt="Avatar" class="image" style="width:400; height:400;"></li>
 <li><a href="http://bridge4.qodeinteractive.com/wp-content/uploads/2016/02/gallery4-480x480.jpg" alt="Avatar" class="image" style="width:400; height:400;"><img src="http://bridge4.qodeinteractive.com/wp-content/uploads/2016/02/gallery4-480x480.jpg" alt="Avatar" class="image" style="width:400; height:400;"></li>
@@ -111,33 +127,36 @@ var map = new google.maps.Map(mapCanvas, mapOptions);
 <div class="textwidget"><h3 style="color: #000000;">FOLLOW US</h3></div>
 <div class="icon-bar">
   <a href="http://www.facebook.com"><i class="fa fa-facebook-official"></i></a>
-  <a href="http://twitter.com"><i class="fa fa-twitter-square"></i></a>
-  <a href="https://www.pinterest.com"><i class="fa fa-pinterest-p"></i></a>
-  <a href="https://www.plus.google.com"><i class="fa fa-google-plus" ></i></a>
-  <a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
-</div>
+          <a href="http://twitter.com"><i class="fa fa-twitter-square"></i></a>
+          <a href="https://www.pinterest.com"><i class="fa fa-pinterest-p"></i></a>
+          <a href="https://www.plus.google.com"><i class="fa fa-google-plus" ></i></a>
+          <a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+    </div>
 
-<div class="separator  transparent" style="margin-top: 50px;margin-bottom: 0px;"></div>
-</div>
+    <div class="separator  transparent" style="margin-top: 50px;margin-bottom: 0px;"></div>
+  </div>
 
-<div class="col-sm-4" >
-</div>
+  <div class="col-sm-4">
+  </div>
 
-</div></div></div>
+  </div>
+  </div>
+  </div>
 
-<div class="container-fluid" id="footer">
-<div class="container-inner">
-<div class="row">
-<div class="col-sm-4" >
-Sometimes the simplest things are the hardest to find. </div>
-<div class="col-sm-4" >
-<a href="http://bridge4.qodeinteractive.com/"><img src="http://bridge4.qodeinteractive.com/wp-content/uploads/2016/02/logo-footer.png" alt="logo" />
+  <div class="container-fluid" id="footer">
+    <div class="container-inner">
+      <div class="row">
+        <div class="col-sm-4">
+          Sometimes the simplest things are the hardest to find. </div>
+        <div class="col-sm-4">
+          <a href="http://bridge4.qodeinteractive.com/"><img src="http://bridge4.qodeinteractive.com/wp-content/uploads/2016/02/logo-footer.png" alt="logo" />
 </a></div>
-<div class="col-sm-4" >
-<p style:"color:#ffffff;">Sometimes the simplest things are the hardest to find.</p>
-</div>
-</div>
-</div>
-</div>
+        <div class="col-sm-4">
+          <p style: "color:#ffffff;">Sometimes the simplest things are the hardest to find.</p>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
+
 </html>
