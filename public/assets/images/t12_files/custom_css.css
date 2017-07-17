@@ -1,0 +1,125 @@
+
+
+.full_width {position: relative;}
+
+.cf7_custom_style_1 input.wpcf7-form-control.wpcf7-text{
+text-align:center;
+}
+
+div.wpcf7 img.ajax-loader {
+display: block;
+margin: 0 auto;
+}
+
+.q_icon_with_title.tiny .icon_text_holder {
+    padding: 0 22px 0 30px;
+}
+
+@media only screen and (mix-width: 1001px) {
+header.fixed_hiding.centered_logo .header_inner_left {
+    margin: 14px 0;
+}
+}
+
+header.fixed_hiding.centered_logo .side_menu_button {
+    height: 60px;
+}
+
+header:not(.with_hover_bg_color) nav.main_menu > ul > li:hover > a{
+    opacity: 1;
+}
+
+.carousel-inner h2.with_title_border span{
+    padding: 0.3em 0.5em;
+}
+
+.q_dropcap{
+margin: 0px 18px 0px 0px;
+}
+@media only screen and (max-width: 1000px){
+.title.title_size_large h1 span {
+font-size: 40px;
+display: block;
+}
+
+.title.title_size_large h1 {
+line-height: 1.5em!important;
+letter-spacing: 10px;
+}
+
+.subtitle {
+font-size: 22px;
+line-height: 1.6em;
+}
+
+.title.title_size_medium h1 {
+font-size: 35px;
+line-height: 1.2em!important;
+letter-spacing: 7px;
+}
+}
+
+@media only screen and (max-width: 700px){
+.title.title_size_large h1 span {
+font-size: 35px;
+}
+
+.title.title_size_large h1 {
+letter-spacing: 7px;
+line-height: 0.7em;
+}
+
+.subtitle {
+display: none;
+}
+
+.title.title_size_medium h1 {
+font-size: 22px;
+line-height: 1.2em!important;
+letter-spacing: 5px;
+}
+}
+
+.carousel-inner .slider_content .text .qbutton {
+margin: 10px 9px 0px 0;
+padding: 6px 34px;
+}
+
+.testimonials_holder .flex-direction-nav li {
+margin-top: 54px;
+}
+
+.footer_top .three_columns>.column2>.column_inner {
+padding: 0;
+}
+
+.footer_top .three_columns>.column2>.column_inner > div {
+margin: 0;
+}
+
+.comments .comment .text .comment_date {
+    font-size: 13px;
+    font-weight: 600;
+    color: #303030;
+}
+
+.comments .comment .text .text_holder {
+    margin: 13px 0 0;
+}
+
+.comment_holder .comment {
+padding: 34px 25px 37px;
+background-color: #f9f9f9
+}
+
+.blog_holder article .post_text .post_text_inner {
+    padding: 35px 36px 41px;
+}
+
+.blog_holder article .post_more .qbutton.small {
+    height: 45px;
+    line-height: 45px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 13px;
+}
