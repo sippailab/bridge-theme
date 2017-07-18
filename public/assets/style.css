@@ -13,7 +13,12 @@ ul#menu li {
   letter-spacing: 0px;
   text-transform: none;
 }
+<<<<<<< HEAD
 .container-fluid{
+=======
+
+#header_content {
+>>>>>>> 1072a9b83c6779dd96f5e860f7134c90c1287516
   background-color: #222222;
   text-align: center;
 }
