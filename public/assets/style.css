@@ -13,7 +13,7 @@ ul#menu li {
   font-style: italic;
 }
 
-.container-fluid {
+#header_content {
   background-color: #222222;
   text-align: center;
 }
@@ -180,58 +180,103 @@ ul#n li a {
   font-size: 16px;
   padding: 16px 32px;
 }
-#header_content{
-  margin-top:20px;
-  background-image:none;
+
+#header_content {
+  margin-top: 20px;
+  background-image: none;
   color: ;
 }
-#content2{
-  padding-top:120px;
-  text-align:center;
-  }
-.image_caption{
+
+#content2 {
+  padding-top: 120px;
+  text-align: center;
+}
+
+.image_caption {
   color: rgb(255, 255, 255);
   font-size: 72px;
   line-height: 81px;
-   font-family: Raleway;
-   font-style: normal;
-   font-weight: 600;
-   letter-spacing: 10px;
-   margin-bottom: 27px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 10px;
+  margin-bottom: 27px;
 }
-.image_caption span{
+
+.image_caption span {
   border: 3px solid;
   border-color: rgba(255, 255, 255, 1);
 }
+
 .carousel-caption {
-    padding: 0.3em 0.5em;
-    top: 40%;
-    bottom: auto;
-    font-family:"Playfair Display";
+  padding: 0.3em 0.5em;
+  top: 40%;
+  bottom: auto;
+  font-family: "Playfair Display";
 }
-.image_subcaption{
-   color: rgb(255, 255, 255);
-   font-size: 32px;
-   margin-bottom: 0px;
+
+.image_subcaption {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  margin-bottom: 0px;
 }
-.image_subcaption span{
+
+.image_subcaption span {
   padding-top: 13px;
   padding-bottom: 68px;
 }
-.full_width_inner4{
+
+.full_width_inner4 {
   text-align: justify;
 }
-.row1_content{
-  padding-left:250px;
-  padding-right:250px;
+
+.row1_content {
+  padding-left: 250px;
+  padding-right: 250px;
 }
-.row2_content{
-  padding-left:250px;
-  padding-right:250px;
+
+.row2_content {
+  padding-left: 250px;
+  padding-right: 250px;
 }
-.inner2_span{
+
+.inner2_span {
   color: #ffffff;
 }
+
 .hover_effect figure:hover img {
-	opacity: .2;
+  opacity: .2;
+}
+
+.full_width_inner1_inner_sub5:hover {
+  background-color: black;
+  color: #ffffff;
+}
+
+section.full_width_inner2 {  
+  min-height: 200px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.gallary_image {
+	position: relative;
+	display: inline-block;
+}
+
+.gallary_image:hover .edit {
+	display: block;
+}
+
+.edit {
+	padding: 70px 70px 70px 70px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: none;
+}
+
+.edit a {
+	color: #000;
 }
