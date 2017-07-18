@@ -1,6 +1,4 @@
-.panel panel-default {
-  background-image: url("http://bridge4.qodeinteractive.com/wp-content/uploads/2016/02/title-image.jpg");
-}
+
 
 ul#menu li {
   display: inline;
@@ -15,8 +13,7 @@ ul#menu li {
   letter-spacing: 0px;
   text-transform: none;
 }
-
-.container-fluid {
+.container-fluid{
   background-color: #222222;
   text-align: center;
 }
@@ -25,21 +22,14 @@ b {
   margin-left: 100px;
 }
 
-#nav {
-  width: 750px;
-  margin: 0 auto;
-  list-style: none;
-}
-
-#nav li {
-  float: left;
-}
-
-#nav a {
-  display: block;
+#logoo{
+display:block;
   text-align: center;
   width: 1700px;
-  text-decoration: none;
+
+}
+#nav{
+  background-color: white;
 }
 
 .panel-group {
@@ -70,9 +60,9 @@ b {
   text-align: center;
 }
 
-.container-fluid#first {
+.container-fluid#first{
   background-image: url("images/title-image.jpg");
-  height: 100%;
+   background-size: 1920px 600px;
 }
 
 #hone {
@@ -106,6 +96,18 @@ ul#nav-top li {
   float: horizontal;
   display: inline;
 }
+ul#navnav li {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #ffffff;
+  float: vertical;
+  display: inline;
+}
+ul#navnav
+{
+  margin-left: 600px;
+}
 
 #blog-container a {
   color: #303030;
@@ -119,6 +121,11 @@ ul#nav-top li {
 ul#nav-top li a {
   padding: 20px 20px;
   color: white;
+  text-align: center;
+}
+ul#navnav li a {
+  padding: 20px 20px;
+  color: black;
   text-align: center;
 }
 
@@ -232,8 +239,4 @@ ul#nav-top li a {
   font-size: 15px;
   width: 10%;
   float: right;
-}
-
-.scroll {
-  background-color: transparent;
 }
