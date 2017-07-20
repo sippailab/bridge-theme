@@ -158,5 +158,24 @@ section.full_width_inner2 {
 }
 
 .caption-animate .item.active .carousel-caption {
-  animation-duration: 2s;
+  animation-duration: 3s;
+}
+.caption-animate .item.active .carousel-caption {
+
+    -webkit-animation: css-animation 0s ease-in 4s forwards;
+    animation: css-animation 0s ease-in 4s forwards;
+}
+@-webkit-keyframes css-animation {
+    to {
+        width: 0;
+        height: 0;
+        opacity: 0;
+    }
+}
+@keyframes css-animation {
+    to {
+        width: 0;
+        height: 0;
+        opacity: 0;
+    }
 }

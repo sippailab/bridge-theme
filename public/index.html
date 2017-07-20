@@ -7,7 +7,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css-style.css">
-  <script src="assets/slider.js"></script>
   <script src="bower_components/wow/dist/wow.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -15,14 +14,18 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <script type="text/javascript" src="assets/mouse-over.js"></script>
     <script type="text/javascript" src="assets/scroll.js"></script>
+      <script type="text/javascript" src="assets/slider.js"></script>
+      <link type="text/css" rel="stylesheet" href="css/lightslider.css" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/lightslider.js"></script>
 
 </head>
 
 <body>
-  <div id="myCarousel" class="carousel slide caption-animate" data-ride="carousel">
+  <div id="myCarousel" class="carousel slide caption-animate"  data-ride="carousel" data-interval="5000">
     <nav class="navbar navbar-inverse navbar-fixed-top" id="nav">
       <div class="container"  style="width:100%">
-        <div class="row" style="padding:15px 0px 15px 900px">
+        <div class="row" style="text-align:center">
             <a id="logo" href="http://bridge4.qodeinteractive.com/">
              <img id="myImg" src="http://bridge4.qodeinteractive.com/wp-content/uploads/2016/03/fixed-logo.png" alt="logo" width="49px" height="50px" />  </a>
            </div>
@@ -78,7 +81,7 @@
     <div class="carousel-inner" role="listbox">
       <div class="item active first_image">
         <img src="assets/images/slide1.jpg" alt="&nbsp;" width="2000" height="800">
-          <div class="carousel-caption fadeInUp">
+            <div class="carousel-caption fadeInUp" id="carouselhide" >
           <h2 class="image_caption">
                 <span>RESTAURANT</span>
               </h2>
@@ -89,7 +92,7 @@
       </div>
       <div class="item second_image">
         <img src="assets/images/slide2.jpg" alt="&nbsp;" width="2000" height="800">
-        <div class="carousel-caption fadeInUp">
+        <div class="carousel-caption fadeInUp" id="carouselhide" >
           <h2 class="image_caption">
                 <span >NEW MENU</span>
               </h2>
@@ -100,7 +103,7 @@
       </div>
       <div class="item third_image">
         <img src="assets/images/slide3.jpg" alt="&nbsp;" width="2000" height="800">
-        <div class="carousel-caption fadeInUp">
+        <div class="carousel-caption fadeInUp" id="carouselhide">
           <h2 class="image_caption">
                 <span>SALAD BAR</span>
               </h2>
@@ -203,9 +206,10 @@
       </div>
     </section>
   </div>
-  <div class="container-fluid">
-    <div class="full_width_inner3" style=" padding-top:120px; padding-bottom:50px; text-align:center;">
-      <div class="full_width_inner3_sub1">
+
+
+  <div class="container">
+    <div class="full_width_inner3" style=" padding-top:120px; padding-bottom:80px; text-align:center;">
         <div class="inner3_sub1_wrap">
           <div class="inner3_sub1_wrap_head">
             <h2>FOURSQUARE REVIEWS<h2>
@@ -214,10 +218,10 @@
           <div class="inner3_sub1_wrap_body">
             <h4>The exciting tastes of international cuisine in a superb interior of our newly opened Brooklyn gastro bar.</h4>
           </div>
-          <div class="inner3_sub1_wrap_body" id="image_slider">
-            <div class=" container grid_section">
+        </div>
+            <div class=" container">
               <div class="flex_viewport" style="overflow: hidden; position: relative;">
-                <ul class="slider responsive" style="width:1200%;margin-left:0px">
+                <ul class="slider"  style="width:1200%;margin-left:0px">
                   <li class="slide" style="width: 340px; margin-right: 40px; float: left; display: block;">
                     <div class="slide1_header ">
                       <img class="img_slide" src="assets/images/inner3_body1.png">
@@ -298,14 +302,14 @@
                   </li>
                 </ul>
               </div>
-              <button><a class="prev" >&#10094;</a></button>
-              <button><a class="next" >&#10095;</a></button>
+              <div class="seperator transparent" style="margin-top:40px;margin-bottom:0px;"></div>
+              <button><a class="prev" onclick="plusSlides(-1)">&#10094;</a></button>
+              <button><a class="next" onclick="plusSlides(1)">&#10095;</a></button>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
+
+
 
   <div class="full_width_inner4" style="padding-top:0px">
     <div class="full_width_inner4_content" style="background-image: url(assets/images/inner4_img.jpg); height:600px;">
