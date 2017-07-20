@@ -88,6 +88,7 @@
    color: #ffffff;
    float: horizontal;
    display: inline;
+    text-transform: uppercase;
  }
  ul#navnav li {
    font-size: 18px;
@@ -96,6 +97,7 @@
    color: #ffffff;
    float: vertical;
    display: inline;
+    text-transform: uppercase;
  }
  ul#navnav
  {
