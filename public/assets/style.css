@@ -216,6 +216,7 @@
    font-size: 15px;
    width: 10%;
    float: right;
+   color:white;
  }
 .transistion a{color:black;}
 .transistion a:hover{color: #fd8a5f;}
